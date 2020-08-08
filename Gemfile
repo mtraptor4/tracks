@@ -22,8 +22,9 @@ gem 'jquery-ui-rails' , '~>5.0.5'
 # This will prevent a native build of the driver. Building native drivers is not
 # always possible on all platforms
 # Alternatively use --without <group> arguments to bundler to not install that group
-gem "sqlite3", group: :sqlite
-gem "mysql2", "~> 0.5.3", group: :mysql
+# gem "sqlite3", group: :sqlite
+# gem "mysql2", "~> 0.5.3", group: :mysql
+gem "pg"
 
 gem "RedCloth"
 gem "sanitize", "~> 5.2"
