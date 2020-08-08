@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '1.9.3'
 
 gem 'rails', '~> 5.2.4'
 gem 'sass-rails', '~> 5.0'
@@ -41,6 +42,7 @@ gem 'bcrypt', '~> 3.1.15'
 
 gem 'chartjs-ror', :git => 'git://github.com/ZeiP/chartjs-ror.git'
 
+gem 'rails_12factor'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # gem 'turbolinks'
 
